@@ -24,5 +24,5 @@ quantidade_vendida = df.sort_values(by='Unidades Vendidas', ascending=True)
 print(30*'=')
 print(quantidade_vendida.values)
 
-sastifacao = df[df['Satisfação'] == 'baixo']
+sastifacao = df[df['Satisfação'] == 'Baixo']
 print(sastifacao)
